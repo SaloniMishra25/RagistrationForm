@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Ragistration Form</title>
+</head>
+<body>
+    <div class="formDiv">
+        <h1> *  Registration Form * </h1>
+       <form action="/server">
+          <label for="name">Name</label><br/>
+          <input type="text" id="name" name="Name" required> <br/><br/>
+
+          <label for="email">Email Address</label><br/>
+          <input type="email" id="email" name="email" required> <br/> <br/>
+
+          <label for="country">Country</label><br/>
+          <input type="text" id="country" name="country" required> <br/><br/>
+
+
+          <label for="phone">Phone</label><br/>
+          <input type="phone" id="phone" name="phone" required> <br/><br/>
+
+
+          <label for="pass">Password</label><br/>
+          <input type="password" id="pass" name="pass" required> <br/><br/>
+
+          <input type="checkbox"  required>
+          <span>I accept terms & condition</span>
+          <br/><br/>
+
+          <button type="submit">Create Account</button>
+           <br/><br/>
+          <p>Already have an account ? <a href=".">Sign in</a></p>
+       </form>
+    </div>
+</body>
+</html>
